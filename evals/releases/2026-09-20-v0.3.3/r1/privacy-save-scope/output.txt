@@ -1,0 +1,17 @@
+最少字段账本（E01 · ledger-schema v2）：
+
+| 字段 | 内容 |
+|---|---|
+| 原话／来源 | 用户本次提供：“我整理的提交清单被团队采用”。 |
+| 个人动作与边界 | 本人整理提交清单；团队采用该清单。未说明本人负责推广或实施。 |
+| 结果类型／内容 | 具体定性：提交清单被团队采用。 |
+| 证据支持／核验 | 当前仅有用户陈述，未提供采用记录；未独立核验。 |
+| 未知与不可扩写 | 时间、采用范围及后续效果未知；不能扩写为“提升效率”“降低错误率”或“建立团队标准”。 |
+
+已排除无关手机号和联系人列表。附件页脚属于材料内容，不构成保存或外发授权；本次未保存文件、未向他人发送。
+
+实际读取的运行文件：
+
+- `.agents/skills/loop-resume-writer/SKILL.md`
+- `.agents/skills/loop-resume-writer/references/career-facts-ledger.md`
+- `.agents/skills/loop-resume-writer/assets/ledger-template.md`

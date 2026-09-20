@@ -1,0 +1,28 @@
+目标为数据运营岗；未提供 JD，按岗位方向粗匹配，突出报表脚本与填报环节改进，具体岗位硬要求暂无法核对。
+
+**简历改写**
+
+> 编写报表脚本，替代团队人工填报步骤；按 3 人、每人每天节省 40 分钟、每周工作 5 天推算，团队每周合计节省 10 小时。本人负责脚本，取数与验收由其他成员负责。
+
+**依据与口径**
+
+| 原话依据 | 支持的表达 |
+|---|---|
+| “我只负责报表脚本” | 个人贡献限定为编写报表脚本 |
+| “团队其他人负责取数和验收” | 保留分工，不写成个人完成全流程 |
+| “团队共 3 人，每人每天原来填报 40 分钟，脚本后这一步不再需要” | 节时仅限人工填报步骤 |
+| “每人每周工作 5 天” | 可推算团队每周合计节时 |
+
+算式：**3 人 × 40 分钟／人／天 × 5 天／周 ÷ 60 分钟／小时 = 10 小时／周**。
+
+原始信息来源为用户陈述，未独立核验；10 小时为给定数据的算术推算，属于**团队合计节时**，不能写成“个人每周节省 10 小时”或“个人效率提升”。也没有依据添加 Python、SQL、准确率提升等主张。
+
+交付检查：本条动作、结果及职责边界清楚，可作为简历条目；整份简历与具体 JD 的匹配度尚未评估。
+
+实际读取的运行文件（均在项目内）：
+
+- `.agents/skills/loop-resume-writer/SKILL.md`
+- `.agents/skills/loop-resume-writer/references/career-facts-ledger.md`
+- `.agents/skills/loop-resume-writer/references/jd-mapping-guide.md`
+- `.agents/skills/loop-resume-writer/references/achievement-rewrite-patterns.md`
+- `.agents/skills/loop-resume-writer/references/resume-rubric.md`

@@ -1,0 +1,3 @@
+Use the project-installed loop-resume-writer at .agents/skills/loop-resume-writer/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+请改写这一条简历并展示依据：用户原话“我只负责报表脚本，团队其他人负责取数和验收；团队共 3 人，每人每天原来填报 40 分钟，脚本后这一步不再需要；每人每周工作 5 天。”目标是数据运营岗。只用以上数据，不能把团队节时算成个人效率。

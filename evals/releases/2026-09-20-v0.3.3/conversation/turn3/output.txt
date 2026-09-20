@@ -1,0 +1,9 @@
+> 将内容提交规范整理为提交前核对清单，清单被团队采用。
+
+复评：把“整理—形成”合并为直接动作，保留个人整理工作与团队采用结果；未增加管理职责、效率收益或数字。依据仍为用户提供的合成原话，未独立核验。
+
+单句适用项评分：JD 匹配 22/25、成果证据 22/25、事实保真 15/15、语言 10/10，合计 **69/75**，无表达侧 fatal。稿件交接经历与采用记录仍未提供，不影响当前忠实表述。
+
+**累计 QA revisions：2/2 → 3/3 · user extension。已用完追加的 1 次额度，停止改写。**
+
+本轮未新增读取 runtime 文件；沿用此前已读的 `SKILL.md` 及 `career-facts-ledger.md`、`jd-mapping-guide.md`、`resume-rubric.md`、`achievement-rewrite-patterns.md` 四份 references。

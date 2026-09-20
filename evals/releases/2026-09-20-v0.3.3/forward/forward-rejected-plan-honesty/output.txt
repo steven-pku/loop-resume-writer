@@ -1,0 +1,21 @@
+> 访谈两位同事，将三种提交流程整理为对照表；经理因近期无改造时间未采用，无后续执行结果。
+
+这条能体现访谈与流程梳理能力。**无法覆盖的部分**：材料未说明两位同事是否来自不同团队，因此不能写成“完成跨团队需求梳理”。
+
+仅评适用维度，不给整份简历总分：
+
+| 维度 | 评分 | 依据 |
+|---|---:|---|
+| 成果证据 | 23/25 | 有具体产出“对照表”，也有明确的未采用结果及原因；无落地成效证据 |
+| 事实保真 | 15/15 | 动作、数量及结果均对应原文，未增强贡献或收益 |
+| 语言 | 9/10 | 动词具体，产出与结果边界清楚 |
+
+来源为用户提供的虚构评估材料，未独立核验。**未采用属于明确的失败结果，不因缺少正面收益触发造假或“无结果” fatal。** 完整 JD、整页结构与筛读友好度不在本次评分范围；分数仅为编辑判断。
+
+实际读取的运行文件（均在项目内）：
+
+- `.agents/skills/loop-resume-writer/SKILL.md`
+- `.agents/skills/loop-resume-writer/references/career-facts-ledger.md`
+- `.agents/skills/loop-resume-writer/references/jd-mapping-guide.md`
+- `.agents/skills/loop-resume-writer/references/resume-rubric.md`
+- `.agents/skills/loop-resume-writer/references/achievement-rewrite-patterns.md`

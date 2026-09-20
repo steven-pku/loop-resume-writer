@@ -1,0 +1,11 @@
+改为：**“整理提交前核对清单，清单被团队采用。”**
+
+保留本人动作与具体定性结果，未增加效果数字或扩大贡献。依据为本轮提供的账本原话，未独立核验。
+
+累计记录：此前已改稿 2 次＋本次明确追加 1 次＝**QA revisions: 3/3 · user extension**。本次仅修订此句，追加额度已用完，停止改稿。
+
+实际读取的运行文件：
+
+- `.agents/skills/loop-resume-writer/SKILL.md`
+- `.agents/skills/loop-resume-writer/references/career-facts-ledger.md`
+- `.agents/skills/loop-resume-writer/references/achievement-rewrite-patterns.md`

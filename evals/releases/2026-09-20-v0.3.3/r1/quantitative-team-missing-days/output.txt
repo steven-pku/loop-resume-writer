@@ -1,0 +1,17 @@
+**不能定稿为“个人每周节省 10 小时”**：每周工作天数、实际使用天数均未提供，无法推算周收益；团队合计节时也不能归为个人节时。
+
+现有材料可定稿为：
+
+> 负责报表脚本；据团队 3 人口头反馈，每人每天节省约 40 分钟。
+
+这里保留了反馈来源；该节时数据未独立核验，不能写成实测成果。若不希望在简历中使用未经核验的数字，可简化为：
+
+> 负责报表脚本，团队反馈有助于缩短报表处理时间。
+
+本次仅校正该条经历的事实表述；未提供目标岗位或 JD，不作岗位匹配判断。
+
+实际读取的运行文件：
+
+- `.agents/skills/loop-resume-writer/SKILL.md`
+- `.agents/skills/loop-resume-writer/references/career-facts-ledger.md`
+- `.agents/skills/loop-resume-writer/references/achievement-rewrite-patterns.md`

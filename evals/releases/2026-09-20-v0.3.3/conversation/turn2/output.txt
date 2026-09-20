@@ -1,0 +1,11 @@
+沿用历史记录：**QA revisions = 2/2，已达上限**。这次“继续”未明确追加有限轮数，因此先保留当前版本，不作第三次改写。
+
+> 整理内容提交规范，形成提交前核对清单，清单被团队采用。
+
+仍可诊断的问题是：“整理—形成—采用”的句式略显机械；事实范围已经清楚，不能靠增加管理职责或效率成果来增强表达。
+
+依据已读的 [SKILL.md](.agents/skills/loop-resume-writer/SKILL.md)：“Only an explicit finite user extension increases the budget; keep earlier counts.”
+
+若要继续改写，请明确“追加 1 次改写复评”，并可附上最不满意之处；届时累计记为 **3/3 · user extension**。
+
+本轮未新增读取 runtime 文件。
