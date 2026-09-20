@@ -4,7 +4,7 @@
 
 This repository contains instruction and template text, with no runtime runner or executable script. This does not make the host agent harmless or prove that the written safeguards are effective. The host may use tools, save files, send requests, or retain conversation data according to its own configuration and permissions; model providers may also retain inputs.
 
-The candidate is HOLD for formal release. The repaired runtime now states data-as-input, minimal-data, scoped-action and job-relevant evidence boundaries. These are instructions, not demonstrated enforcement. Prompt injection, inappropriate hiring inferences and unauthorized disclosure still require behavior tests; no lie-detection or background-check capability is claimed.
+Current review evidence and its limits are indexed in [REVIEW.md](REVIEW.md); earlier HOLD findings remain in the historical review. Published synthetic tests do not establish universal enforcement, Skill-only security or release approval. Further checks must preserve this scope; no lie-detection or background-check capability is claimed.
 
 ## Review inputs
 

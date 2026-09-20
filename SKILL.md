@@ -3,7 +3,7 @@ name: loop-resume-writer
 description: "中文简历与求职信的 QA-loop：目标岗位分流、事实账本、JD 匹配、成就改写、诊断打分、一页压缩与平台版整理；支持招聘侧简历审阅。只优化真实经历的表达，不补造数字。面试准备转 loop-interview-writer，述职转 loop-report-writer；不做英文 ATS 简历或 LinkedIn。"
 license: MIT
 metadata:
-  version: "0.3.3"
+  version: "0.3.4"
 ---
 
 # Loop Resume Writer
