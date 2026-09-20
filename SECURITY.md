@@ -4,7 +4,7 @@
 
 This repository contains instruction and template text, with no runtime runner or executable script. This does not make the host agent harmless or prove that the written safeguards are effective. The host may use tools, save files, send requests, or retain conversation data according to its own configuration and permissions; model providers may also retain inputs.
 
-The candidate is HOLD for formal release. This document describes the review and reporting boundary; it does not retrofit missing enforcement into the preserved runtime. In particular, resume/JD prompt injection, data minimization, hiring-side fairness, and overconfident truthfulness claims remain review topics. Some hiring-side privacy and non-discrimination language exists, but completeness and effective behavior have not been established.
+The candidate is HOLD for formal release. The repaired runtime now states data-as-input, minimal-data, scoped-action and job-relevant evidence boundaries. These are instructions, not demonstrated enforcement. Prompt injection, inappropriate hiring inferences and unauthorized disclosure still require behavior tests; no lie-detection or background-check capability is claimed.
 
 ## Review inputs
 

@@ -1,3 +1,27 @@
+# Repair Candidate — loop-resume-writer
+
+2026-09-20. **HOLD — static repairs prepared; new behavior and installation validation pending.**
+
+Candidate version: `0.3.3`. Repair base public commit: `bf8ceda2be1ed1c4df4ce8401ce511d3de19c6c5`.
+
+Current SKILL.md SHA-256: `b0a446d8a4b6dd705df75d2bdbd23bb6f323b462cd62327a8ac49946b6f09379`.
+Current shared ledger-schema v2 SHA-256: `2b6e75db45b2fd1cae4ab5f3f4408d5faf8ad1b533c64bd7b4709f57f1cc54d6`.
+
+The repair aligns quantitative, specific qualitative and honest-failure outcomes,
+source wording, evidence support, verification state and personal/team boundaries.
+It removes unknown-to-deception inference and adds bounded clarification/revision,
+input-as-data and scoped privacy/action rules. Both copies of the shared ledger
+must be byte-identical. New candidate behavior is not established by static edits.
+Installation, actual host discovery, model regression and release settings remain
+open. No current READY judgment is claimed.
+
+## Historical review record — preceding candidate only
+
+The following is the earlier review record at the repair base, retained to show
+what prompted the changes. Its source hashes, line numbers, unchanged-export
+statements and defect descriptions refer to that earlier tree, not the repaired
+runtime above. It is not the current scoring or execution contract.
+
 # Public Review Candidate — loop-resume-writer
 
 2026-09-20.
@@ -28,7 +52,7 @@ The companion is `loop-interview-writer`. Both ledger copies are byte-identical 
 
 1. **Qualitative outcomes versus numerical Result admission.** The shared `references/career-facts-ledger.md` schema has a quantified-point slot and source tags, but no explicit outcome type and evidence fields. Resume's qualitative high-score route conflicts with its fatal rule; Interview's `references/star-story-bank-guide.md:6-7` defines Result through a quantified point, while line 29 allows a verifiable behavior change for failure stories. `assets/story-card-template.md:12` in the Interview companion still asks for a numerical Result. Identical ledger bytes do not close this contract.
 2. **Security and hiring review remain incomplete.** Source tracking is not truth verification. Review guarantee-like wording in `references/career-facts-ledger.md:5`. Resume/JD embedded instructions, disclosure of personal records, and inappropriate hiring inferences need explicit synthetic tests. Interview's `references/interviewer-mode.md:68-70` already excludes irrelevant private/discriminatory questions and disclaims lie detection; do not report those provisions as absent. Whether all modes enforce adequate boundaries remains unverified.
-3. **No current behavior or installation evidence.** This candidate does not include historical trial records or a fresh joint run. No behavior runner, installation test, or live-source fact check was executed in this preparation. Existing host/platform, speech-rate, and screening claims are preserved source assertions, not newly verified facts. Agent Skills specification validation passes on the exported tree; metadata was not shortened to obtain that result. This is not behavior validation.
+3. **No current behavior or installation evidence.** This candidate does not include historical trial records or a fresh joint run. No behavior runner, installation test, or live-source fact check was executed in this preparation. Existing host/platform and screening claims are preserved source assertions, not newly verified facts. Agent Skills specification validation passes on the exported tree; metadata was not shortened to obtain that result. This is not behavior validation.
 
 ## Proposed joint verification — NOT EXECUTED
 
