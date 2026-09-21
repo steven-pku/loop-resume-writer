@@ -1,0 +1,17 @@
+001	JD 正文缺失，按岗位画像粗匹配。 这条经历可对应提交规范整理与检查；稿件交接的具体经历尚无材料支持，本条不补写，也不从 8–12K 薪资推断其他要求。
+002	
+003	改写
+004	
+005	整理提交前核对清单并执行检查，清单被团队采用。
+006	
+007	核对结论： 保留“团队采用”这一具体定性结果，个人职责限定为整理和检查；不扩写为主管、带团队、效率提升或减少错误。依据为你提供的合成原话，未独立核验。
+008	
+009	执行读取回执
+010	
+011	候选与完整性： steven-pku/loop-resume-writer，版本 0.3.4，提交 a7fcebf46b0465462cc25d9bc7918ce11a4f6261。已实际校验：附件 SHA-256 与给定值一致；固定提交、清单版本、SKILL 声明版本及文件白名单一致；清单内 13 个文件的 SHA-256、字节数与 Git blob 标识均一致。仅在内存中读取附件，未解压落盘或写入文件。
+012	
+013	实际全文读取： CANDIDATE.json，以及 loop-resume-writer/ 下的 SKILL.md、references/career-facts-ledger.md、references/jd-mapping-guide.md、references/achievement-rewrite-patterns.md、references/resume-rubric.md。
+014	
+015	仅作完整性校验、未阅读全文： 同一运行目录下的 LICENSE、SECURITY.md、references/evidence-notes.md、references/platform-search-guide.md、references/resume-audit-mode.md、assets/ledger-template.md、assets/qa-scorecard-template.md、assets/resume-brief-template.md。
+016	
+017	工具： 实际仅调用 python.exec。本轮可见工具命名空间为 python、web、python_user_visible、user_info、summary_reader、container、personalization_disabled；另可见已禁用的 bio 和不可用的 image_gen_no_temp_chat 说明。

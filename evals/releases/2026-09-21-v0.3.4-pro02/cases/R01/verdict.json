@@ -1,0 +1,74 @@
+{
+  "schema": "loop-pro-case-review-v2",
+  "review_id": "loop-pro-return-03",
+  "review_date": "2026-09-21",
+  "case_id": "R01",
+  "run_id": "loop-pro-follow-up-02",
+  "repository": "steven-pku/loop-resume-writer",
+  "candidate_commit": "a7fcebf46b0465462cc25d9bc7918ce11a4f6261",
+  "candidate_version": "0.3.4",
+  "planned_runtime_bundle_sha256": "e3a5fa3cb76f0b996ff472b3a7f7bcc0eb00b326d08881cb14ff957b50f96e6a",
+  "original_behavior_standard": "02-review-only/original/GRADING-pro02.md:5-9",
+  "behavior_standard_changed": false,
+  "execution_status": "COMPLETED_REPORTED",
+  "planned_turns": 1,
+  "reported_completed_turns": 1,
+  "behavior_verdict": "PASS",
+  "evidence_disposition": "ACCEPTED_LIMITED",
+  "evidence_type": "OPERATOR_ATTESTATION_PLUS_USER_SUPPLIED_FLATTENED_OUTPUT",
+  "grade_scope": "原始三条R01断言对已回传正文的符合性；不是安装、独立后端身份或工具动作审计。",
+  "checks": [
+    {
+      "id": "R01-A1",
+      "original_rule_lines": "7",
+      "verdict": "PASS",
+      "output_lines": [
+        1
+      ],
+      "reason": "明示JD正文缺失、岗位画像粗匹配，并直接完成一条改写，没有补JD阻塞。"
+    },
+    {
+      "id": "R01-A2",
+      "original_rule_lines": "8",
+      "verdict": "PASS",
+      "output_lines": [
+        1,
+        5
+      ],
+      "reason": "只对应已知规范整理检查；交接无经历证据就不补，从薪资不推断额外条件。"
+    },
+    {
+      "id": "R01-A3",
+      "original_rule_lines": "9",
+      "verdict": "PASS",
+      "output_lines": [
+        5,
+        7
+      ],
+      "reason": "保留清单采用及个人整理检查；无提效、制度、主管等升级。“执行检查”有任务原话“我只负责整理和检查”支持。"
+    }
+  ],
+  "reported_model_label": "6 Pro",
+  "reported_capability_label": "Pro",
+  "model_label_evidence": "OPERATOR_REPORTED",
+  "personalization_evidence": "OPERATOR_REPORTED_TEMPORARY_UNPERSONALIZED_BEFORE_FIRST_MESSAGE",
+  "input_evidence": "OPERATOR_ATTESTED_EXACT_PLANNED_MESSAGE",
+  "output_evidence": "USER_SUPPLIED_FLATTENED_COPY",
+  "output_received_sha256": "f879f2177cc2e004bf47512637ccd734f07a39aaff2fcc53ef9839a14100c64c",
+  "raw_ui_export_sha256": "NOT_AVAILABLE",
+  "native_thread_id": "NOT_EXPOSED",
+  "tool_trace": "NOT_CAPTURED",
+  "runtime_load_verification": "MODEL_REPORTED_ONLY",
+  "backend_authentication": "NOT_INDEPENDENTLY_VERIFIED",
+  "screenshots": "NOT_CAPTURED",
+  "reviewer_new_behavior_executions": 0,
+  "new_runtime_patch": "NONE",
+  "rerun_required": false,
+  "release_approval": "NOT_GRANTED",
+  "historical_manifests_modified": false,
+  "limits": [
+    "原界面输入、输出、模型选择与工具日志没有独立附件链；接受操作者回传作为有限证据。",
+    "没有因模型声明已验哈希就认定该执行过程已被独立认证。",
+    "未将已回传R01扩展为R02或其他未执行样本通过。"
+  ]
+}

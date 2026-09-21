@@ -1,0 +1,42 @@
+{
+  "source_return_zip": "loop-pro-return03-evidence-01.zip",
+  "source_return_zip_sha256": "a1922fd85fb9d52b05dbd499f48913c83803ade5c88eb6d5a11c30fb819f2b9f",
+  "original_load_run_id": "loop-pro-follow-up-02",
+  "review_id": "loop-pro-final-review-04",
+  "artifact_byte_policy": "Returned raw text copied byte-for-byte; hashes do not authenticate the original execution environment.",
+  "operator_assertions_scope": "Visible UI as transcribed by the operator, not signed native logs.",
+  "original_source_prefixes": {
+    "remaining_cases": "03-return/",
+    "R01": "02-review-only/R01/"
+  },
+  "R01_status": "CARRIED_FORWARD_UNCHANGED",
+  "runtime_attachment_file": "loop-resume-writer-0.3.4-a7fcebf4-runtime.zip",
+  "runtime_attachment_sha256": "e3a5fa3cb76f0b996ff472b3a7f7bcc0eb00b326d08881cb14ff957b50f96e6a",
+  "runtime_attachment_publish_status": "NOT_RUN",
+  "runtime_attachment_reproduction": "The exact original ZIP is included in the handoff release-assets directory; source files are also identified by candidate commit and per-file hashes.",
+  "source_status_files": "Original STATUS/RETURN-INDEX contain pre-grading NOT_RUN values; left unchanged in the source ZIP. This manifest contains the new review, not a rewrite of those originals.",
+  "reread_for_patch_baseline": [
+    {
+      "path": "README.md",
+      "git_blob": "1792c79ccb7e988d78246d678ac23ff9259b1a89",
+      "fixed_commit": "a7fcebf46b0465462cc25d9bc7918ce11a4f6261"
+    },
+    {
+      "path": "README.en.md",
+      "git_blob": "0f1c15cee9fc19b1c238e41e8a455def19f1bb3b",
+      "fixed_commit": "a7fcebf46b0465462cc25d9bc7918ce11a4f6261"
+    },
+    {
+      "path": "REVIEW.md",
+      "git_blob": "c999ea547cb88dd45db6faeefc463ba60b83e214",
+      "fixed_commit": "a7fcebf46b0465462cc25d9bc7918ce11a4f6261"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "git_blob": "19eec66f4cf00716d02866ecabe327e014a064aa",
+      "fixed_commit": "a7fcebf46b0465462cc25d9bc7918ce11a4f6261"
+    }
+  ],
+  "new_model_runs_by_reviewer": 0,
+  "remote_writes_by_reviewer": 0
+}

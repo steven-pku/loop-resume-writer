@@ -1,0 +1,90 @@
+{
+  "schema": "loop-runtime-snapshot-v1",
+  "repository": "steven-pku/loop-resume-writer",
+  "candidate_commit": "a7fcebf46b0465462cc25d9bc7918ce11a4f6261",
+  "metadata_version": "0.3.4",
+  "root": "loop-resume-writer/",
+  "runtime_file_count": 11,
+  "runtime_manifest_sha256": "4806e044163700d7706b24c752965e01246a47895a23e8b7e0e22b6355eb7f44",
+  "file_identity_scope": "Git-blob identity verified; not a behavior test or release approval",
+  "files": {
+    "SKILL.md": {
+      "sha256": "f5bea7f6b456c2f4c46f8ab3ea2154dafd627b3b70ab8a3266e9053f53340149",
+      "git_blob": "f0e599bf9d4f297889d327aa1eb4400c71b6e7be",
+      "bytes": 12894,
+      "kind": "runtime"
+    },
+    "SECURITY.md": {
+      "sha256": "88b535e07506a5a5f47475f18ca9fb6482f61002a536e58d4aee1768a8ca4483",
+      "git_blob": "3908f6d3c16b50da31ff1b8228c9eb4c54b5dad0",
+      "bytes": 2378,
+      "kind": "support"
+    },
+    "references/achievement-rewrite-patterns.md": {
+      "sha256": "683dca545a5f6f1ee8f7077813e2a2c087a47c099783e4fe4a90e2d2b8c4df98",
+      "git_blob": "a8113bb089ad0fc43dfff6972794d2cc8b1f010f",
+      "bytes": 2580,
+      "kind": "runtime"
+    },
+    "references/career-facts-ledger.md": {
+      "sha256": "9a1516e52212c6d5dcd65c01e84f0f09dc9e7cd2ceb5672434881415e2b6abc9",
+      "git_blob": "7a0ba64a418c95242e254c848b1581e609949498",
+      "bytes": 5724,
+      "kind": "runtime"
+    },
+    "references/evidence-notes.md": {
+      "sha256": "e8d4215aed0358ae085de10dd2477cdbe83de856f7fecd9dae9f49727dbfee3d",
+      "git_blob": "f177c64b3f6fca48017936cc188c2a7af85c0b1d",
+      "bytes": 1489,
+      "kind": "runtime"
+    },
+    "references/jd-mapping-guide.md": {
+      "sha256": "defcf37593a36eba1b9c0dca7360b3a6c478fc0df6357dade760dffad1cb9fef",
+      "git_blob": "ca4f9280a73d072b17838067372253b283370e2b",
+      "bytes": 1895,
+      "kind": "runtime"
+    },
+    "references/platform-search-guide.md": {
+      "sha256": "c819ec5bdfdecad99029a7a31ab9e4461ba6ba14f17315205dffc55ba964715e",
+      "git_blob": "7fd08055418470bf6119ddc7e9119a6a707b39a8",
+      "bytes": 1887,
+      "kind": "runtime"
+    },
+    "references/resume-audit-mode.md": {
+      "sha256": "74b97bfc5d804cbbd202dcb59d7b14b09bb186f6492497de969f5b771e2f5e40",
+      "git_blob": "fb4ee2353eb8dff095aea2cd8168459a3cf0eb8f",
+      "bytes": 3760,
+      "kind": "runtime"
+    },
+    "references/resume-rubric.md": {
+      "sha256": "eaafdd58dac7774ddfa60b884121a52f4eb3687f5210c1628e5038451fa5a789",
+      "git_blob": "60e2cca95359e720ca0d26081d04318f60cc5326",
+      "bytes": 4329,
+      "kind": "runtime"
+    },
+    "assets/ledger-template.md": {
+      "sha256": "7c5280df89cce7ceac993cfb5b9822f54cd3ecdb17fea0416229920b728e181c",
+      "git_blob": "5a7b98f2cc935851fdaf4010b3b6ab20f1705ba8",
+      "bytes": 953,
+      "kind": "runtime"
+    },
+    "assets/qa-scorecard-template.md": {
+      "sha256": "96bb1855c1f5707e684b943f416d1e8b93ff6e4baa9e6b96ee6a78b0d6d2b4cb",
+      "git_blob": "067f51180616ff05d68eae6a23feba593c5f0fbd",
+      "bytes": 1055,
+      "kind": "runtime"
+    },
+    "assets/resume-brief-template.md": {
+      "sha256": "f6a4b59f10be2eabed8439a316770626cc711b1e89cded798513c41e7695aa99",
+      "git_blob": "b7c51b83a06661e54dcc2741cb10d17667d535f6",
+      "bytes": 667,
+      "kind": "runtime"
+    },
+    "LICENSE": {
+      "sha256": "f5ef1cb91215a16f97573a4f2099068c4069511c97c3e175375319e7ea1cfff3",
+      "git_blob": "04685f93d3e7cddcf76bb4412319d5bca762b666",
+      "bytes": 1067,
+      "kind": "support"
+    }
+  }
+}

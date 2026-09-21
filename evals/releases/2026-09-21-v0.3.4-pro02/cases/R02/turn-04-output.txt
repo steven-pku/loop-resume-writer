@@ -1,0 +1,37 @@
+第三次改写 · QA revisions：3/3 · user extension
+
+保留此前 2 次修订，本轮使用追加的 1 次。材料仍为用户提供的合成账本，未独立核验。JD 正文缺失，按“提交规范整理、稿件交接”的岗位画像粗匹配；实际稿件交接执行仍无材料覆盖，带团队不属于评价要求。
+
+**E01：**整理提交前核对清单，团队已采用。
+
+**E02：**访谈两位同事，将三种提交流程列成对照表；经理因近期无改造时间未采用，无后续执行结果。
+
+适用维度复评
+
+按 references/resume-rubric.md，仅复评这两条经历。
+
+维度	本轮评价	原句与账本依据
+岗位匹配	部分覆盖，定性评价	“提交前核对清单”“三种提交流程……对照表”支持提交相关材料整理，不推定已完成稿件交接。
+成果证据	23/25，维持	E01“团队已采用”对应原话“清单被团队采用”；E02 保留未采用原因及“无后续执行结果”。具体定性结果、失败结果均成立，不因缺效率数字或未获采用扣分。仍仅有用户摘要，采用记录、对照表原件未提供，保留此前的证据完整性缺口。
+事实保真	15/15，维持	“整理”未升级为主导、管理或带团队；“两位同事”“三种提交流程”均来自 E02 原话，未添加跨团队、改造落地或收益。
+语言	10/10，维持	“团队已采用”直接写明采用主体；“将三种提交流程列成对照表”明确动作与产出。未用更强动词替换真实贡献，也未为压短而删除失败结果。
+
+**条目级 QA 结论：**未发现本轮新增的无依据事实、因果增强或角色越界。整份简历的结构、时间线、版式及平台搜索命中不评，不计算综合总分。
+
+累计修订已达 3/3，交付以上版本并停止。
+
+执行读取回执
+
+候选：steven-pku/loop-resume-writer；版本 0.3.4；提交 a7fcebf46b0465462cc25d9bc7918ce11a4f6261。
+
+**完整性检查：**本轮已实际执行。附件 SHA-256 与首轮给定值一致；CANDIDATE.json 的仓库、提交、版本、根目录及文件白名单匹配；13 个清单文件的 SHA-256、字节数、Git blob 标识全部匹配，运行文件数为 11。仅在内存中只读校验，未解压、保存或联网。
+
+以下除 CANDIDATE.json 外，均相对于 loop-resume-writer/：
+
+读取范围	本轮文件
+实际全文读取	CANDIDATE.json；SKILL.md；references/career-facts-ledger.md；references/jd-mapping-guide.md；references/achievement-rewrite-patterns.md；references/resume-rubric.md；assets/qa-scorecard-template.md
+仅为校验读取字节，未阅读正文	LICENSE；SECURITY.md；references/evidence-notes.md；references/platform-search-guide.md；references/resume-audit-mode.md；assets/ledger-template.md；assets/resume-brief-template.md
+
+**实际调用：**仅 python.exec，共 3 次。
+
+本轮可见工具名称：python.exec、python_user_visible.exec、web.run、user_info.get_user_info、summary_reader.read、container.exec、container.feed_chars、container.open_image、container.download、personalization_disabled.explain；另有标记为禁用的 bio.update 和标记为不可用的图像生成入口 image_gen_no_temp_chat。

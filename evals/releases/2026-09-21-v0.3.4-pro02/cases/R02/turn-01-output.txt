@@ -1,0 +1,41 @@
+本轮改写
+
+范围：仅改写 E01、E02。材料均为你显式导入的合成 ledger-schema v2 摘要，来源为用户提供，未独立核验。JD 正文缺失，按“整理提交规范、稿件交接”的岗位画像粗匹配。
+
+**覆盖边界／无法覆盖项：**两条材料支持提交前检查清单整理、提交流程梳理；尚未提供稿件交接的具体执行动作与完成情况。带团队不是岗位要求，不列为缺口或扣分项。
+
+**E01：**整理提交前核对清单，清单被团队采用。
+
+**E02：**访谈两位同事，将三种提交流程整理为对照表；经理因近期无改造时间未采用，无后续执行结果。
+
+适用维度复评
+
+按已读取的 references/resume-rubric.md 复评，仅评价上述两条成稿。
+
+适用维度	本轮评价	原句与材料依据
+岗位匹配	部分覆盖，定性评审	E01 的“提交前核对清单”和 E02 的“三种提交流程整理为对照表”与提交相关材料整理有关；实际稿件交接执行尚无材料支持。未评平台搜索命中。
+成果证据	23/25	E01 的“清单被团队采用”是具体定性结果；E02 的“未采用，无后续执行结果”保留了明确的未达成结果，不包装成流程改造成功。两者均可定位至对应用户原话。保留 2 分证据完整性空间：本轮仅有摘要，未见采用记录或对照表原件；不因缺少效率数字或未获采用本身扣分。
+事实保真	15/15	E01 保留个人动作“整理”，未改成主管、主导或带团队；E02 保留“两位同事”“三种提交流程”及未采用原因，未添加“跨团队”、执行落地或收益。来源及未独立核验状态已明确。
+语言	10/10	E01 删除“我在工作中……进行了”等冗余，直接写“整理”；E02 以“访谈”起句，保留动作、产出和结果限制，无空泛能力词。
+
+整份简历的结构、时间线、页数和版式筛读友好度均为 不适用／本轮不评。不合成百分制总分，也不套用整份简历的通过阈值；上述分数仅为条目编辑质量信号。
+
+**条目级 QA 结论：**未发现本轮新增的无依据事实、程度增强或个人贡献越界；岗位覆盖缺口仍如上所列。这不是对合成经历真实性的独立核验。
+
+QA revisions：1/2。
+
+执行读取回执
+
+候选：steven-pku/loop-resume-writer，版本 0.3.4，提交 a7fcebf46b0465462cc25d9bc7918ce11a4f6261。
+
+**完整性检查：**已实际在内存中执行。附件 SHA-256 与给定值一致；CANDIDATE.json 的仓库、固定提交、版本、根目录及文件白名单均匹配。清单内 13 个文件的 SHA-256、字节数与 Git blob 标识均匹配，运行文件计数为 11。未解压到磁盘。
+
+以下相对路径均以 loop-resume-writer/ 为前缀，CANDIDATE.json 除外。
+
+读取范围	文件
+实际全文读取	CANDIDATE.json；SKILL.md；references/career-facts-ledger.md；references/jd-mapping-guide.md；references/achievement-rewrite-patterns.md；references/resume-rubric.md；assets/qa-scorecard-template.md
+仅为校验读取字节，未阅读正文	LICENSE；SECURITY.md；references/evidence-notes.md；references/platform-search-guide.md；references/resume-audit-mode.md；assets/ledger-template.md；assets/resume-brief-template.md
+
+本轮实际调用：python.exec。
+
+本轮可见工具名称：python.exec、python_user_visible.exec、web.run、user_info.get_user_info、summary_reader.read、container.exec、container.feed_chars、container.open_image、container.download、personalization_disabled.explain；另有标记为禁用的 bio.update，以及标记为不可用的 image_gen_no_temp_chat 图像生成入口。

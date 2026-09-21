@@ -4,17 +4,17 @@
 
 从用户提供的经历建立事实账本，匹配岗位并改进简历表达；也支持招聘侧材料审阅。
 
-版本 **v0.3.3**。本次修复：共享账本 v2、定性成果与失败结果准入、未知信息与造假区分、角色保真及有限改稿。 验收范围、原始失败与未测项见 [REVIEW](REVIEW.md) 和 [版本验收记录](evals/releases/2026-09-20-v0.3.3.md)。
+版本 **v0.3.4**。本次修复：统一缺少 JD 正文时的岗位画像粗匹配分支，保留事实账本、定性及失败结果与累计修订边界。 验收范围、原始失败与未测项见 [REVIEW](REVIEW.md) 和 [版本验收记录](evals/releases/2026-09-21-v0.3.4-pro02.md)。
 
 ## 项目级安装
 
-在目标项目目录安装固定版本，然后开启新会话。不要覆盖已有同名目录；需要替换时先保留自己的修改。Codex 的隔离候选加载和连续会话已经实测，远端标签安装及首次使用是正式 Release 前的最后检查。Claude Code 下方仅给目录布局，本轮没有验证其运行行为。
+在目标项目目录安装固定版本，然后开启新会话。不要覆盖已有同名目录；需要替换时先保留自己的修改。下方命令用于同版本标签已创建并完成回读之后。本版定向行为证据来自 GPT Pro UI 的固定 runtime ZIP 附件加载，不是 Codex／Claude Code 原生安装测试。本版远端安装、原生首次使用及 CI 执行均为 NOT_RUN；不继承旧版回执为本版通过。
 
 Codex：
 
 ```bash
 mkdir -p .agents/skills
-git clone --branch v0.3.3 --depth 1 \
+git clone --branch v0.3.4 --depth 1 \
   https://github.com/steven-pku/loop-resume-writer.git \
   .agents/skills/loop-resume-writer
 ```
@@ -23,7 +23,7 @@ Claude Code 项目目录布局：
 
 ```bash
 mkdir -p .claude/skills
-git clone --branch v0.3.3 --depth 1 \
+git clone --branch v0.3.4 --depth 1 \
   https://github.com/steven-pku/loop-resume-writer.git \
   .claude/skills/loop-resume-writer
 ```

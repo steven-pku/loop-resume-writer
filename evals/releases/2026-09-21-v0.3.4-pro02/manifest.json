@@ -1,0 +1,309 @@
+{
+  "schema": "loop-pro-directed-acceptance-v2",
+  "run_id": "loop-pro-follow-up-02",
+  "review_id": "loop-pro-final-review-04",
+  "review_date": "2026-09-21",
+  "repository": "steven-pku/loop-resume-writer",
+  "version": "0.3.4",
+  "candidate_commit": "a7fcebf46b0465462cc25d9bc7918ce11a4f6261",
+  "base_commit": "c4e2b9097582d3c906d73fa493f6376565246b07",
+  "runtime_files": {
+    "SKILL.md": "f5bea7f6b456c2f4c46f8ab3ea2154dafd627b3b70ab8a3266e9053f53340149",
+    "references/achievement-rewrite-patterns.md": "683dca545a5f6f1ee8f7077813e2a2c087a47c099783e4fe4a90e2d2b8c4df98",
+    "references/career-facts-ledger.md": "9a1516e52212c6d5dcd65c01e84f0f09dc9e7cd2ceb5672434881415e2b6abc9",
+    "references/evidence-notes.md": "e8d4215aed0358ae085de10dd2477cdbe83de856f7fecd9dae9f49727dbfee3d",
+    "references/jd-mapping-guide.md": "defcf37593a36eba1b9c0dca7360b3a6c478fc0df6357dade760dffad1cb9fef",
+    "references/platform-search-guide.md": "c819ec5bdfdecad99029a7a31ab9e4461ba6ba14f17315205dffc55ba964715e",
+    "references/resume-audit-mode.md": "74b97bfc5d804cbbd202dcb59d7b14b09bb186f6492497de969f5b771e2f5e40",
+    "references/resume-rubric.md": "eaafdd58dac7774ddfa60b884121a52f4eb3687f5210c1628e5038451fa5a789",
+    "assets/ledger-template.md": "7c5280df89cce7ceac993cfb5b9822f54cd3ecdb17fea0416229920b728e181c",
+    "assets/qa-scorecard-template.md": "96bb1855c1f5707e684b943f416d1e8b93ff6e4baa9e6b96ee6a78b0d6d2b4cb",
+    "assets/resume-brief-template.md": "f6a4b59f10be2eabed8439a316770626cc711b1e89cded798513c41e7695aa99"
+  },
+  "runtime_manifest_sha256": "4806e044163700d7706b24c752965e01246a47895a23e8b7e0e22b6355eb7f44",
+  "runtime_identity": "SOURCE_SNAPSHOT_HASHES_VERIFIED; EXECUTION_LOAD_ONLY_MODEL_REPORTED",
+  "runtime_attachment": {
+    "filename": "loop-resume-writer-0.3.4-a7fcebf4-runtime.zip",
+    "sha256": "e3a5fa3cb76f0b996ff472b3a7f7bcc0eb00b326d08881cb14ff957b50f96e6a",
+    "release_asset_upload": "NOT_RUN"
+  },
+  "source_return_zip": {
+    "filename": "loop-pro-return03-evidence-01.zip",
+    "sha256": "a1922fd85fb9d52b05dbd499f48913c83803ade5c88eb6d5a11c30fb819f2b9f"
+  },
+  "behavior_execution_status": "COMPLETED_REPORTED",
+  "behavior_execution_gate": "SATISFIED_LIMITED_UI_EVIDENCE_FOR_THIS_BATCH",
+  "requested_execution_model": "GPT Pro",
+  "actual_execution_model": "UI_LABEL_6_Pro_CAPABILITY_Pro_OPERATOR_REPORTED",
+  "actual_host": "ChatGPT UI with runtime ZIP; Temporary and Unpersonalized reported",
+  "backend_identity_verification": "NOT_RUN",
+  "native_thread_id": "NOT_EXPOSED",
+  "actual_execution_at": "OPERATOR_REPORTED_2026-09-21_ASIA_SINGAPORE; per-turn absolute times mostly NOT_RECORDED",
+  "grading_status": "COMPLETED",
+  "grader": "GPT-6 Astra Pro in current review conversation",
+  "new_model_executions_by_grader": 0,
+  "cases": {
+    "R01": {
+      "planned_turns": 1,
+      "reported_completed_turns": 1,
+      "execution_status": "COMPLETED_REPORTED",
+      "behavior_verdict": "PASS",
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "carried_forward": true,
+      "grade_scope": "原始三条R01断言对已回传正文的符合性；不是安装、独立后端身份或工具动作审计。",
+      "model": {
+        "ui_label": "6 Pro",
+        "capability": "Pro",
+        "evidence": "OPERATOR_REPORTED",
+        "backend_id": "NOT_EXPOSED"
+      },
+      "input_artifacts": {
+        "planned-message.txt": {
+          "kind": "PLANNED_INPUT_WITH_OPERATOR_ATTESTATION",
+          "sha256": "e665ce36372b5dbd22e235ceb00eb3777cba43f81ee61e7c85e0a2b355bf62f9"
+        }
+      },
+      "output_artifacts": {
+        "turn-01-output.received.txt": {
+          "kind": "USER_SUPPLIED_FLATTENED_OUTPUT",
+          "sha256": "f879f2177cc2e004bf47512637ccd734f07a39aaff2fcc53ef9839a14100c64c"
+        }
+      },
+      "verdict_file": "cases/R01/verdict.json",
+      "tool_trace": "NOT_CAPTURED",
+      "runtime_load_verification": "MODEL_REPORTED_ONLY",
+      "execution_exit_code": "NOT_APPLICABLE_UI",
+      "native_thread_id": "NOT_EXPOSED",
+      "continuity_evidence": "NOT_APPLICABLE_SINGLE_TURN",
+      "grading_evidence": "cases/R01/verdict.json"
+    },
+    "R02": {
+      "planned_turns": 4,
+      "reported_completed_turns": 4,
+      "execution_status": "COMPLETED_REPORTED",
+      "behavior_verdict": "PASS",
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "carried_forward": false,
+      "grade_scope": "Original assertions applied to returned visible content; tool execution is not independently audited.",
+      "model": {
+        "ui_label": "6 Pro",
+        "capability": "Pro",
+        "evidence": "OPERATOR_REPORTED",
+        "backend_id": "NOT_EXPOSED"
+      },
+      "input_artifacts": {
+        "turn-01-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "dc5559b2c5339ecf14d9e049c6852b1137735a66764fe6f01e21ab61b68bf16e"
+        },
+        "turn-02-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "5de645dff430d1a109f0c4cc78dcacbb6420f4a7304e845493b280c1235f986c"
+        },
+        "turn-03-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "9a872f9382edbc4b47ffe46cb84760f1a440bd0cab8fdf1b1ebc8a3b527ff3b3"
+        },
+        "turn-04-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "1d6f88409c3d4620bc07be97012d2445b2f259f1f9007dfd2c9e85fb9368e979"
+        }
+      },
+      "output_artifacts": {
+        "turn-01-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "eefc5da88bdb28aa449c78288804fb0c01fbeee89f7d2e48d8a2ca96c00ac857"
+        },
+        "turn-02-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "95331b870fcb83e4ff9bf3b34a4f50be42b71914313b7bfee278008ce84c9283"
+        },
+        "turn-03-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "083360b73a9506fa98f3f174d632f6bfc4947ea35f42a212a6c03fbd0699315d"
+        },
+        "turn-04-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "f7a84bdaea5ccac02dc383cdce07a6fd56cdd114da3e4153da9e8ef573ad5350"
+        }
+      },
+      "verdict_file": "cases/R02/verdict.json",
+      "tool_trace": "NOT_CAPTURED",
+      "runtime_load_verification": "MODEL_REPORTED_ONLY",
+      "execution_exit_code": "NOT_APPLICABLE_UI",
+      "native_thread_id": "NOT_EXPOSED",
+      "continuity_evidence": [
+        {
+          "case": "R02",
+          "before_turn": 2,
+          "tool_tab_handle": "1937994459",
+          "previous_user_excerpt": "本次执行第一次改写",
+          "previous_assistant_excerpt": "QA revisions：1/2。",
+          "prior_text_match": true,
+          "tab_matches_operator_record": true,
+          "evidence_disposition": "ACCEPTED_LIMITED",
+          "backend_thread_authenticated": false
+        },
+        {
+          "case": "R02",
+          "before_turn": 3,
+          "tool_tab_handle": "1937994459",
+          "previous_user_excerpt": "不重置累计修订次数",
+          "previous_assistant_excerpt": "第二次改写 · QA revisions：2/2",
+          "prior_text_match": true,
+          "tab_matches_operator_record": true,
+          "evidence_disposition": "ACCEPTED_LIMITED",
+          "backend_thread_authenticated": false
+        },
+        {
+          "case": "R02",
+          "before_turn": 4,
+          "tool_tab_handle": "1937994459",
+          "previous_user_excerpt": "继续，我仍不满意。沿用同一任务和既有预算。",
+          "previous_assistant_excerpt": "累计修订：2/2，本轮新增：0",
+          "prior_text_match": true,
+          "tab_matches_operator_record": true,
+          "evidence_disposition": "ACCEPTED_LIMITED",
+          "backend_thread_authenticated": false
+        }
+      ],
+      "grading_evidence": "cases/R02/verdict.json"
+    }
+  },
+  "artifact_files": {
+    "FINDINGS-ADDENDUM.md": {
+      "sha256": "1dbfea458b1e2079cd8fc2c82fb1f8d6062c6435c856c0bab7d5f94c0cfcb84e",
+      "bytes": 892
+    },
+    "GRADING.md": {
+      "sha256": "74994c79b429b492eb6d950ace8a5b05dbc34f513871ba0f83574d1a4c96ef13",
+      "bytes": 2642
+    },
+    "PROVENANCE.json": {
+      "sha256": "d9637baedaf326b6cb5ee7fb3934b76bf231215e342fa76f8b7a2838586f476e",
+      "bytes": 2037
+    },
+    "RELEASE-NOTES.md": {
+      "sha256": "63e2d98bf7364ef0c88cac9ea2a149bf9713a35d5cb862718ce6e5d23dd6ed73",
+      "bytes": 1437
+    },
+    "cases/R01/REVIEW.md": {
+      "sha256": "eb82285447474b9fd037ffe215305bc862faf6a29097a55bc986e65a06d99497",
+      "bytes": 1578
+    },
+    "cases/R01/operator-report.received.md": {
+      "sha256": "1597935c03cd266a26509e2207a31a65abd363331a8855f3a80254bc8cd74978",
+      "bytes": 1942
+    },
+    "cases/R01/planned-message.txt": {
+      "sha256": "e665ce36372b5dbd22e235ceb00eb3777cba43f81ee61e7c85e0a2b355bf62f9",
+      "bytes": 3378
+    },
+    "cases/R01/turn-01-output.numbered.txt": {
+      "sha256": "46e322755c2810f9721db40f06d448b66f926dd792a4a7a21d60b3b4fa063801",
+      "bytes": 1768
+    },
+    "cases/R01/turn-01-output.received.txt": {
+      "sha256": "f879f2177cc2e004bf47512637ccd734f07a39aaff2fcc53ef9839a14100c64c",
+      "bytes": 1700
+    },
+    "cases/R01/verdict.json": {
+      "sha256": "edb00709d3ff4d07a2ba45e5b73a911722d6e5c1368fee736bc00c0f84a0a22c",
+      "bytes": 2951
+    },
+    "cases/R02/OPERATOR-RECORD.md": {
+      "sha256": "4f199679172435a6960def309964d64a5cc02a3d9bdb1f6a6f947a49f721c92b",
+      "bytes": 5413
+    },
+    "cases/R02/turn-01-input.txt": {
+      "sha256": "dc5559b2c5339ecf14d9e049c6852b1137735a66764fe6f01e21ab61b68bf16e",
+      "bytes": 3989
+    },
+    "cases/R02/turn-01-output.txt": {
+      "sha256": "eefc5da88bdb28aa449c78288804fb0c01fbeee89f7d2e48d8a2ca96c00ac857",
+      "bytes": 3713
+    },
+    "cases/R02/turn-02-continuity.json": {
+      "sha256": "21832fb76cd0780290a432955a4ba353cea262299768190c2de48d3474a58f8f",
+      "bytes": 258
+    },
+    "cases/R02/turn-02-input.txt": {
+      "sha256": "5de645dff430d1a109f0c4cc78dcacbb6420f4a7304e845493b280c1235f986c",
+      "bytes": 139
+    },
+    "cases/R02/turn-02-output.txt": {
+      "sha256": "95331b870fcb83e4ff9bf3b34a4f50be42b71914313b7bfee278008ce84c9283",
+      "bytes": 3219
+    },
+    "cases/R02/turn-03-continuity.json": {
+      "sha256": "72c88218063490e29dc47f9314b719e60d01cbd4d164c78a9d37da5fab0659cf",
+      "bytes": 275
+    },
+    "cases/R02/turn-03-input.txt": {
+      "sha256": "9a872f9382edbc4b47ffe46cb84760f1a440bd0cab8fdf1b1ebc8a3b527ff3b3",
+      "bytes": 64
+    },
+    "cases/R02/turn-03-output.txt": {
+      "sha256": "083360b73a9506fa98f3f174d632f6bfc4947ea35f42a212a6c03fbd0699315d",
+      "bytes": 3146
+    },
+    "cases/R02/turn-04-continuity.json": {
+      "sha256": "956bea2f97b5c0f4f521d82421064ec20e2a9327084e277f93a75f146679aaee",
+      "bytes": 311
+    },
+    "cases/R02/turn-04-input.txt": {
+      "sha256": "1d6f88409c3d4620bc07be97012d2445b2f259f1f9007dfd2c9e85fb9368e979",
+      "bytes": 120
+    },
+    "cases/R02/turn-04-output.txt": {
+      "sha256": "f7a84bdaea5ccac02dc383cdce07a6fd56cdd114da3e4153da9e8ef573ad5350",
+      "bytes": 3254
+    },
+    "cases/R02/verdict.json": {
+      "sha256": "f0c98c3712108d29150669f01190edfad1370017cef17466a10fc705fdb75c39",
+      "bytes": 7702
+    },
+    "method/EVIDENCE-PROTOCOL-v2.md": {
+      "sha256": "5c147b4ea5298f5e181a6fc2dfb24bab5656444e8075af839b5723781f6cc4a7",
+      "bytes": 3674
+    },
+    "method/METHOD-ADDENDUM.md": {
+      "sha256": "fca748f77eb00c1744d2b6bcb2d26f2b315e45ebec34245302a9eedef5ae6995",
+      "bytes": 951
+    },
+    "method/original-GRADING-pro02.md": {
+      "sha256": "727111839c516f265ca63bbe7c681b55a3d392f00e74e36d16fb5f014b37fe7e",
+      "bytes": 5970
+    },
+    "runtime-snapshot.identity.json": {
+      "sha256": "35ad482df9f836ada1424ad2a75ba5be40ac4b501167e055a9f783a7e8a347cd",
+      "bytes": 3502
+    }
+  },
+  "evidence_protocol": "method/EVIDENCE-PROTOCOL-v2.md",
+  "original_behavior_standard": "method/original-GRADING-pro02.md",
+  "behavior_standard_changed": false,
+  "verdict": "READY",
+  "verdict_scope": "LIMITED_TARGETED_ACCEPTANCE",
+  "runtime_fix_required": false,
+  "remote_install": "NOT_RUN",
+  "native_first_use": "NOT_RUN",
+  "ci_execution": "NOT_RUN",
+  "full_regression": "NOT_RUN",
+  "cross_model_validation": "NOT_RUN",
+  "cross_host_validation": "NOT_RUN",
+  "final_documentation_commit_upload_and_readback": "NOT_RUN",
+  "release_creation": "NOT_RUN",
+  "release_approval": "NOT_GRANTED",
+  "historical_record_policy": "APPEND_ONLY. Existing manifests, raw inputs/outputs and earlier PASS/PARTIAL/service failures unchanged. No old-version pass counted as a current full regression.",
+  "limitations": [
+    "仅为这批合成材料、固定运行候选及 GPT Pro UI 附件加载方式的定向验收；不是全功能／跨模型回归或真实业务结果验证。",
+    "执行环境、无重生成及无判卷预读来自操作者记录；当前审查会话没有亲自观察执行页面。",
+    "UI模型标签为6 Pro，能力为Pro；后端模型与原生线程ID未暴露、未独立认证。",
+    "连续性按证据协议v2接受逐轮可见输入输出、工具标签句柄与前轮历史片段；不是后台会话认证。",
+    "模型关于附件哈希、全文读取及只用python的回执仍是MODEL_REPORTED_ONLY；工具逐项日志NOT_CAPTURED，不等于没有工具或网络动作。",
+    "截图NOT_CAPTURED，连续录屏／官方导出UNSUPPORTED，UI退出码NOT_APPLICABLE_UI；未设置新的录屏门槛。",
+    "本版原生安装、原生首次使用、CI运行、完整回归及最终发布提交上传／回读均NOT_RUN；不继承旧版本回执为新版通过。",
+    "全部原始材料及历史PASS/PARTIAL/服务失败保留，不修改旧manifest、旧输入输出、旧main/tag。"
+  ]
+}

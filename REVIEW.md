@@ -1,12 +1,14 @@
 # Review and release evidence
 
-2026-09-20. Version **v0.3.3**.
+2026-09-21. Version **v0.3.4**. Verdict: **READY — limited targeted acceptance**, not publication authorization.
 
-共享账本 v2、定性成果与失败结果准入、未知信息与造假区分、角色保真及有限改稿。
+统一缺少 JD 正文时的岗位画像粗匹配分支，保留事实账本、定性及失败结果与累计修订边界。
 
-See the [dated acceptance record](evals/releases/2026-09-20-v0.3.3.md) for actual cases, round identities and limitations. Final runtime commit: `91bc870fa818e812a52308e35ea9e0749874c767`. Later release documentation does not change runtime files.
+Runtime candidate commit: `a7fcebf46b0465462cc25d9bc7918ce11a4f6261`. See the [dated acceptance record](evals/releases/2026-09-21-v0.3.4-pro02.md), [per-case grading](evals/releases/2026-09-21-v0.3.4-pro02/GRADING.md), [manifest](evals/releases/2026-09-21-v0.3.4-pro02/manifest.json) and [findings addendum](evals/releases/2026-09-21-v0.3.4-pro02/FINDINGS-ADDENDUM.md). Documentation packaging does not change runtime files.
 
-The [preceding review](evals/releases/pre-repair-review.md) remains historical, with its original failures and unexecuted scope. It is not a current HOLD or a retroactive pass.
+2 targeted cases / 5 user messages are accepted with limited UI evidence. Operator-reported model label: 6 Pro; capability: Pro. Native backend/thread identity and tool activity are not independently authenticated. Runtime loading was via a ZIP attachment; native installation, native first use, CI execution and full regression for this version are NOT_RUN. Release creation is NOT_RUN and authorization is NOT_GRANTED in this review.
+
+The [previous acceptance record](evals/releases/2026-09-20-v0.3.3.md) and [preceding review](evals/releases/pre-repair-review.md) remain historical. No earlier PASS, PARTIAL, failure or raw output is rewritten or treated as a fresh full-version pass.
 
 ## Independent inspection
 

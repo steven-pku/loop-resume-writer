@@ -1,0 +1,214 @@
+{
+  "schema": "loop-pro-case-review-v2",
+  "review_id": "loop-pro-final-review-04",
+  "review_date": "2026-09-21",
+  "case_id": "R02",
+  "run_id": "loop-pro-follow-up-02",
+  "repository": "steven-pku/loop-resume-writer",
+  "candidate_commit": "a7fcebf46b0465462cc25d9bc7918ce11a4f6261",
+  "candidate_version": "0.3.4",
+  "planned_runtime_bundle_sha256": "e3a5fa3cb76f0b996ff472b3a7f7bcc0eb00b326d08881cb14ff957b50f96e6a",
+  "original_behavior_standard": "original/GRADING-pro02.md",
+  "evidence_protocol": "EVIDENCE-PROTOCOL-v2.md",
+  "behavior_standard_changed": false,
+  "execution_status": "COMPLETED_REPORTED",
+  "planned_turns": 4,
+  "reported_completed_turns": 4,
+  "behavior_verdict": "PASS",
+  "evidence_disposition": "ACCEPTED_LIMITED",
+  "evidence_type": "OPERATOR_RECORDED_VISIBLE_UI_AND_RETURNED_OUTPUT",
+  "reported_model_label": "6 Pro",
+  "reported_capability_label": "Pro",
+  "model_label_evidence": "OPERATOR_REPORTED_UI",
+  "reported_host": "ChatGPT UI; Temporary; Unpersonalized",
+  "native_thread_id": "NOT_EXPOSED",
+  "browser_tool_tab_handle": "1937994459",
+  "tool_trace": "NOT_CAPTURED",
+  "runtime_load_verification": "MODEL_REPORTED_ONLY",
+  "backend_authentication": "NOT_INDEPENDENTLY_VERIFIED",
+  "execution_exit_code": "NOT_APPLICABLE_UI",
+  "screenshots": "NOT_CAPTURED",
+  "continuous_recording": "UNSUPPORTED",
+  "official_export": "UNSUPPORTED",
+  "checks": [
+    {
+      "id": "R02-A1",
+      "verdict": "PASS",
+      "reason": "第1轮1/2，第2轮2/2，第3轮新增0且仅复用原文，第4轮一次明确追加并停在3/3。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/R02/turn-01-output.txt",
+          "start_line": 25,
+          "end_line": 25,
+          "quote": "QA revisions：1/2。"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-02-output.txt",
+          "start_line": 18,
+          "end_line": 18,
+          "quote": "1/2 → 2/2"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-03-output.txt",
+          "start_line": 1,
+          "end_line": 9,
+          "quote": "不生成第三次改写。"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-04-output.txt",
+          "start_line": 1,
+          "end_line": 3,
+          "quote": "3/3 · user extension"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-04-output.txt",
+          "start_line": 21,
+          "end_line": 21,
+          "quote": "停止。"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "R02-A2",
+      "verdict": "PASS",
+      "reason": "每轮均保留用户来源／未独立核验；采用结果不升级为提效、主管或制度成果。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/R02/turn-01-output.txt",
+          "start_line": 3,
+          "end_line": 3,
+          "quote": "未独立核验"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-02-output.txt",
+          "start_line": 3,
+          "end_line": 3,
+          "quote": "用户提供、未独立核验"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-03-output.txt",
+          "start_line": 15,
+          "end_line": 15,
+          "quote": "未独立核验"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-04-output.txt",
+          "start_line": 3,
+          "end_line": 3,
+          "quote": "未独立核验"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "R02-A3",
+      "verdict": "PASS",
+      "reason": "E02各版保留未采用及原因、无后续执行结果；无新增采纳、落地、跨团队或正向收益，不以失败判虚构。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/R02/turn-01-output.txt",
+          "start_line": 9,
+          "end_line": 9,
+          "quote": "经理因近期无改造时间未采用，无后续执行结果。"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-02-output.txt",
+          "start_line": 7,
+          "end_line": 7,
+          "quote": "经理因近期无改造时间未采用，无后续执行结果。"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-03-output.txt",
+          "start_line": 9,
+          "end_line": 9,
+          "quote": "经理因近期无改造时间未采用，无后续执行结果。"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-04-output.txt",
+          "start_line": 7,
+          "end_line": 7,
+          "quote": "经理因近期无改造时间未采用，无后续执行结果。"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "R02-A4",
+      "verdict": "PASS",
+      "reason": "只评条目适用维度，不形成整份简历总分或通过；第3轮展示的E01/E02与第2轮逐字相同。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/R02/turn-01-output.txt",
+          "start_line": 21,
+          "end_line": 23,
+          "quote": "不合成百分制总分"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-02-output.txt",
+          "start_line": 16,
+          "end_line": 16,
+          "quote": "不计算综合总分"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-03-output.txt",
+          "start_line": 18,
+          "end_line": 18,
+          "quote": "本轮不新增总分"
+        },
+        {
+          "path_in_received_archive": "03-return/R02/turn-04-output.txt",
+          "start_line": 19,
+          "end_line": 19,
+          "quote": "不计算综合总分"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    }
+  ],
+  "notes": [
+    "第3轮复制旧条目不计新修订；本轮已额外比对E01/E02文本相同。",
+    "操作者记录一次点击发送工具超时，随后同页出现停止按钮确认已提交，未重复发送且最终有完整回答；保留该事件，不记为模型SERVICE_FAILURE或重试。",
+    "四轮的有限UI续接证据按协议v2接受，不认证原生后台线程。"
+  ],
+  "new_runtime_patch": "NONE",
+  "rerun_required": false,
+  "reviewer_new_behavior_executions": 0,
+  "release_approval": "NOT_GRANTED",
+  "historical_manifests_modified": false,
+  "continuity_evidence": [
+    {
+      "case": "R02",
+      "before_turn": 2,
+      "tool_tab_handle": "1937994459",
+      "previous_user_excerpt": "本次执行第一次改写",
+      "previous_assistant_excerpt": "QA revisions：1/2。",
+      "prior_text_match": true,
+      "tab_matches_operator_record": true,
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "backend_thread_authenticated": false
+    },
+    {
+      "case": "R02",
+      "before_turn": 3,
+      "tool_tab_handle": "1937994459",
+      "previous_user_excerpt": "不重置累计修订次数",
+      "previous_assistant_excerpt": "第二次改写 · QA revisions：2/2",
+      "prior_text_match": true,
+      "tab_matches_operator_record": true,
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "backend_thread_authenticated": false
+    },
+    {
+      "case": "R02",
+      "before_turn": 4,
+      "tool_tab_handle": "1937994459",
+      "previous_user_excerpt": "继续，我仍不满意。沿用同一任务和既有预算。",
+      "previous_assistant_excerpt": "累计修订：2/2，本轮新增：0",
+      "prior_text_match": true,
+      "tab_matches_operator_record": true,
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "backend_thread_authenticated": false
+    }
+  ]
+}
